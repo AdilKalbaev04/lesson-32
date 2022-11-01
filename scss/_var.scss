@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+@font-face {
+  font-family: adil;
+  src: url(../fonts/Quick\ Kiss\ Personal\ Use.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  max-width: 1920px;
+  background-image: url(../img/BG.jpg);
+  margin: 0 auto;
+}
+.main {
+  max-width: 1030px;
+  margin: 0 auto;
+  position: relative;
+}
+.logo {
+  @include flex($jcenter: space-between, $acenter: center);
+}
+.nav {
+  @include flex($gap: 30px, $acenter: center);
+}
+.logo-but {
+  height: 56px;
+  width: 160px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--color-yellow);
+}
+.logo__span {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  color: var(--color-white);
+}
+.navbar {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-decoration: none;
+  color: var(--color-white);
+}
+.logo-but {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.hamburger {
+  display: none;
+}
+
+.block-1__but {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+
+  height: 56px;
+  width: 160px;
+  background: #ffc814;
+  border: none;
+  border-radius: 4px;
+}
+.block-1__but-2 {
+  height: 56px;
+  width: 160px;
+  background: #fffdfd;
+  border: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  border-radius: 4px;
+}
+
+.block-1__h1 {
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0em;
+  color: var(--color-white);
+}
+
+.block-1__p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--color-white);
+}
+.block-1__text {
+  @include flex($column: column, $gap: 40px);
+}
+.block-but {
+  display: flex;
+  column-gap: 20px;
+}
+.block-but-2 {
+  margin-top: 174px;
+  @include flex($acenter: center, $gap: 10px);
+}
+
+.but-2 {
+  @include flex($acenter: center, $jcenter: center, $gap: 5px);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  background: #ffc814;
+  height: 45px;
+  width: 120px;
+  left: 299px;
+  top: 789px;
+  border: none;
+}
+.but-2__2 {
+  @include flex($acenter: center, $jcenter: center, $gap: 5px);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  background-color: white;
+  height: 45px;
+  width: 120px;
+  left: 299px;
+  top: 789px;
+  border: none;
+}
+
+.block-2 {
+  max-width: 1320px;
+  padding: 30px;
+  background-color: white;
+  @include flex($acenter: center, $jcenter: center, $gap: 10px);
+}
+.block-2__form {
+  border-radius: 4px;
+  width: 200px;
+
+  border-radius: 4px;
+
+  @include flex($gap: 10px, $column: column);
+}
+.block-2__input {
+  width: 170px;
+  height: 56px;
+}
+.block-2__label {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #000;
+}
+.block-2-but-cont {
+  @include flex($acenter: end);
+  height: 78px;
+  width: 160px;
+}
+.block-2__but {
+  height: 56px;
+  width: 160px;
+  border-radius: 4px;
+  background-color: var(--color-yellow);
+  border: none;
+  @include flex($acenter: center);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.article {
+  max-width: 1390px;
+  background: url(../img/fon.png);
+  background-size: cover;
+  margin: 0 auto;
+  height: 600px;
+}
+.block-img {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1390px;
+  @include flex($jcenter: space-between);
+}
+.img-text {
+  @include flex($column: column);
+  max-width: 521px;
+}
+.icon-text {
+  @include flex($gap: 10px);
+}
+.icon-text__p {
+  line-height: 36px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #9da1b4;
+}
+.block-img-1 {
+  height: 520px;
+  width: 410px;
+  overflow: hidden;
+  border-radius: 14px;
+}
+.block-img-2 {
+  position: absolute;
+  top: 277px;
+  left: 289px;
+  height: 282px;
+  width: 266px;
+  overflow: hidden;
+  border-radius: 14px;
+}
+.img-text__span {
+  font-family: adil;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 15px;
+  color: var(--color-yellow);
+}
+.img-text__cont {
+  @include flex($gap: 20px, $jcenter: space-between);
+  max-width: 325px;
+}
+
+.img-text__2 {
+  height: 45px;
+  width: 88px;
+}
+.img-text__2-color {
+  color: var(--color-yellow);
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.img-text__2-ccc {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #9da1b4;
+}
+.img-wrap-2 {
+  height: 342px;
+  width: 251px;
+  margin-top: 284px;
+  margin-right: 53px;
+}
+
+.img-img {
+  width: 100%;
+}
+.img-text__h4 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.img-text__p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #9da1b4;
+}
+.action__block {
+  background-color: var(--color-yellow);
+  position: absolute;
+  border: 3px solid #f1f1f1;
+  top: 113px;
+  left: 367px;
+  transition-duration: 0.4s;
+  transform: translateY(calc(-100% + -10000px));
+}
+.action__block.is-active {
+  transform: translateX(0);
+}
+
+/* Full-width inputs */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 227px;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+@media (max-width: 865px) {
+  .hamburger {
+    display: inline-flex;
+    z-index: 11;
+  }
+  .nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100vh;
+    box-shadow: 0 0 10px black;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.875rem;
+    transform: rotateX(90deg);
+    transition: transform 0.4s ease-in;
+    will-change: transform;
+    z-index: 10;
+    background: #8a72b6;
+  }
+  .nav.is-active {
+    transform: rotateY(0);
+  }
+  .logo-but {
+    display: none;
+  }
+  .block-img {
+    display: flex;
+    flex-direction: column;
+  }
+  .block-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-wrap {
+    width: 333px;
+  }
+  .img-wrap-img {
+    width: 100%;
+  }
+  .img-text {
+    padding: 10px;
+  }
+  .img-wrap-2 {
+    margin-top: 102px;
+  }
+  .block-but-2 {
+    column-gap: 0;
+  }
+  .logo {
+    max-width: 1030px;
+  }
+}
